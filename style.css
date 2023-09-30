@@ -1,16 +1,41 @@
+* {
+    font-family: Roboto;
+}
+
+.foot{
+    font-family: Tahoma;
+    font-weight: normal;
+}
+
+.foot-list {
+    font-family: Tahoma;
+    font-weight: normal;
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 12pt;
+    text-decoration: none;
+    color: white;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 20pt
+}
+
 .banner {
-    background-image: url(static/theater-image-background.png);    
+    background-image: url("static/theater-image-background.png");
     background-size: cover;
+    height: 50%;
+
+    background-position: center;
+    position: relative;
+
 }
 
-.flexbox-container {
-
-}
-
-.flexbox-item {
-    width: 200px;
-    margin: 10px;
-    background-color: darkgray;
-    border: 1px solid red;
-
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%)
 }
